@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body, button{
+    font-family: "Anta", sans-serif;
+  }
+
+  .titulo{
+    font-size: 2em;
+    margin: 15px;
+  }
+
+.rey{
+    margin: 1.5px;
+    border: 1px solid black;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 1em;
+}
+img{
+    width: 100%;
+}
+.cajaCentral{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    
+}
+
+.redname{
+    color: red;
+    font-weight: bold;
+  }
